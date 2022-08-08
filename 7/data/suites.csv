@@ -1,6 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Mon Aug 08 13:35:40 GMT 2022","Mon Aug 08 13:36:22 GMT 2022","42866","","tests.CreditCardTest","","tests.CreditCardTest","succesGetCreditCard","succesGetCreditCard","Ввести корректные данные пользователя и оформить карту"
-"failed","Mon Aug 08 13:36:23 GMT 2022","Mon Aug 08 13:36:55 GMT 2022","32556","","tests.CreditCardTest","","tests.CreditCardTest","failureGetCreditCardInvalidFio","failureGetCreditCardInvalidFio","Ввести ФИО латиницей и оформить карту"
-"passed","Mon Aug 08 13:37:10 GMT 2022","Mon Aug 08 13:37:16 GMT 2022","6869","","tests.CreditCardTest","","tests.CreditCardTest","failureGetCreditCardInvalidDateEmail","failureGetCreditCardInvalidDateEmail","Ввести некорректный почтовый адрес и оформить карту"
-"passed","Mon Aug 08 13:36:55 GMT 2022","Mon Aug 08 13:37:03 GMT 2022","7814","","tests.CreditCardTest","","tests.CreditCardTest","failureGetCreditCard","failureGetCreditCard","Не вводить никаких данных пользователя и оформить карту"
-"passed","Mon Aug 08 13:37:03 GMT 2022","Mon Aug 08 13:37:10 GMT 2022","6641","","tests.CreditCardTest","","tests.CreditCardTest","failureGetCreditCardInvalidDateBirth","failureGetCreditCardInvalidDateBirth","Ввести в качестве даты рождения сегодняшнюю дату и оформить карту"
