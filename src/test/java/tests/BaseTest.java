@@ -3,13 +3,13 @@ package tests;
 import com.codeborne.selenide.Configuration;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Before;
-import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class BaseTest {
 
     @Before
     public void setUp() {
-        WebDriverManager.chromedriver().driverVersion("104").setup();
+        //System.setProperty("webdriver.chrome.driver", "chromedriver");
+        WebDriverManager.chromedriver().driverVersion("103").setup();
         System.setProperty("chromeoptions.args", "--no-sandbox");
         Configuration.browser = "chrome";
         Configuration.headless = true;
