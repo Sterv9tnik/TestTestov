@@ -13,12 +13,12 @@ public class BaseTest {
         WebDriverManager.chromedriver().driverVersion("103").setup();
         System.setProperty("chromeoptions.args", "--no-sandbox");
         Configuration.browser = "chrome";
-        //Configuration.headless = true;
-        Configuration.browserSize = "1920x1080";
-        Configuration.remote = "http://localhost:4444/wd/hub";
-        DesiredCapabilities capabilities = new DesiredCapabilities();
+        Configuration.headless = true;
+        //Configuration.browserSize = "1920x1080";
+        //Configuration.remote = "http://localhost:4444/wd/hub";
+/*        DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
-        Configuration.browserCapabilities = capabilities;
+        Configuration.browserCapabilities = capabilities;*/
     }
 }
