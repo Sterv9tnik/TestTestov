@@ -29,7 +29,7 @@ public class CreditCardMtsCashbackSteps {
 
     @Step("Навести на кнопку Оформить карту")
     public void clickOnCreditCardMtsCashbackButton(CreditCardMtsCashback creditCardMtsCashback){
-        $(creditCardMtsCashback.getCREDIT_CARD_MTS_CASHBACK_BUTTON()).shouldBe(visible, Duration.ofSeconds(30)).click();
+        $(creditCardMtsCashback.getCREDIT_CARD_MTS_CASHBACK_BUTTON()).shouldBe(visible, Duration.ofSeconds(60)).click();
     }
 
     @Step("Нажать на кнопку далее")
